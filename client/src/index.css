@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+body{
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  background: #f5f0f0;
+  overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{width: 8px !important; height: 8px !important;}
+::-webkit-scrollbar-thumb{background: #ff5252;}
+::-webkit-scrollbar-track{background:#ccc;}
+.container {
+   width: 90%;
+   margin: auto;
+}
+header .top-strip{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.link:hover{
+    color: #ff5252;
+}
+header .header{
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.MuiBadge-badge {
+    background-color: #ff5252;
+    color: #fff;
+}
+/*Navbar*/
+.navbar li .submenu{
+    visibility: hidden;
+}
+.navbar li:hover .submenu{
+    opacity: 1 !important;
+    visibility:inherit;
+    top: 100%;
+    z-index: 1000;
+}
+.mySwiper{
+    overflow: inherit !important;
+}
+.swiper-button-prev, .swiper-button-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 100%;
+    height: 45px;
+    width: 45px;
+    min-width: 45px;
+}
+.swiper-button-prev::after, .swiper-button-next::after{
+    font-size: 22px !important;
+}
+.homecatslider{
+    overflow: inherit !important;
+}
+.homecatslider .swiper-button-prev,.homecatslider .swiper-button-next{
+    height: 30px;
+    width: 30px;
+    min-width: 30px;
+}
+.homecatslider .swiper-button-prev::after,.homecatslider .swiper-button-next::after{
+    font-size: 16px !important;
+}
+.homecatslider .swiper-button-prev{
+left: -10px !important;
+}
+.homecatslider .swiper-button-next{
+    right: -10px !important;
+}
+.homecatslider .swiper-button-prev:hover,.homecatslider .swiper-button-next:hover{
+    background: #ff5252 !important;
+}
+.homecatslider .swiper-button-prev:hover::after,.homecatslider .swiper-button-next:hover::after{
+    color: white !important;
+}
+.homecatslider .item:hover img{
+    transform: scale(1.1);
+}
+.freeshiping .col1 img{
+    height: 30px !important;
+}
+.adsSlider{
+    overflow: inherit !important;
+}
+.adsSlider .swiper-button-prev,.adsSlider .swiper-button-next{
+    height: 30px;
+    width: 30px;
+    min-width: 30px;
+}
+.adsSlider .swiper-button-prev::after,.adsSlider .swiper-button-next::after{
+    font-size: 16px !important;
+}
+.adsSlider .swiper-button-prev{
+left: -10px !important;
+}
+.adsSlider .swiper-button-next{
+    right: -10px !important;
+}
+.adsSlider .swiper-button-prev:hover,.adsSlider .swiper-button-next:hover{
+    background: #ff5252 !important;
+}
+.adsSlider .swiper-button-prev:hover::after,.adsSlider .swiper-button-next:hover::after{
+    color: white !important;
+}
+.MuiTabs-indicator{
+    background: #ff5252 !important;
+}
+.MuiTab-textColorPrimary.Mui-selected{
+    color:#ff5252 !important ;
+} 
+.mySwiper .swiper-button-prev:hover,.mySwiper .swiper-button-next:hover{
+    background: #ff5252 !important;
+}
+.mySwiper .swiper-button-prev:hover::after,.mySwiper .swiper-button-next:hover::after{
+     color: white !important;
+}
+/* .copyright li {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #ff5252;
+} */
