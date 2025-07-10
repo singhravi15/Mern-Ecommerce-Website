@@ -8,7 +8,6 @@ import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import ProductsSlider from "../../components/ProductsSlider";
 import Blogs from "../../components/Blogs";
-import Footer from "../../components/Footer";
 
 const Home = () => {
   const [value, setValue] = React.useState(0);
@@ -91,11 +90,6 @@ const Home = () => {
       <section className="!py-4 bg-white">
         <div className="container">
           <Blogs />
-        </div>
-      </section>
-      <section className=" bg-white">
-        <div className="container">
-          <Footer />
         </div>
       </section>
     </div>

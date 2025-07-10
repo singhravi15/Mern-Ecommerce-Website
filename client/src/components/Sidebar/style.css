@@ -1,0 +1,6 @@
+::-webkit-scrollbar{width: 5px !important; height: 5px !important;}
+::-webkit-scrollbar-thumb{background: #9f9a9a;}
+::-webkit-scrollbar-track{background:#ccc;}
+.ReactCollapse--collapse{
+    transition: height 600ms;
+}

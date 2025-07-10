@@ -122,9 +122,11 @@ left: -10px !important;
 .mySwiper .swiper-button-prev:hover::after,.mySwiper .swiper-button-next:hover::after{
      color: white !important;
 }
-/* .copyright li {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background: #ff5252;
-} */
+.ItemView button.active svg{
+    color: #ff5252 !important;
+    opacity: 1 !important;
+}
+.MuiPagination-ul li button.Mui-selected{
+    background: #ff5252 !important;
+    color: #fff !important;
+}
