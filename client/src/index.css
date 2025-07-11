@@ -130,3 +130,15 @@ left: -10px !important;
     background: #ff5252 !important;
     color: #fff !important;
 }
+
+.zoomthumb .swiper-slide{
+    height: auto !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.qtyproduct input:focus{
+    outline: none;
+}

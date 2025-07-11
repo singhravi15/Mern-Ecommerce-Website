@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ProductListning from "./pages/ProductListning";
 import Footer from "./components/Footer";
+import ProductDetails from "./pages/ProductDetails";
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
             path="/productlistning"
             exact={true}
             element={<ProductListning />}
+          />
+          <Route
+            path="/productdetails/:id"
+            exact={true}
+            element={<ProductDetails />}
           />
         </Routes>
         <Footer />
